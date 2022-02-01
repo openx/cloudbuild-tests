@@ -23,4 +23,4 @@ options:
     - DOCKER_CLI_EXPERIMENTAL=enabled
 substitutions:
   _DOCKER_BUILDX_PLATFORMS: 'linux/amd64,linux/arm64'
-  _IMAGE_FULL_NAME: us-docker.pkg.dev/ox-lab-anthony-molinaro/cloudbuild-tests
+  _IMAGE_FULL_NAME: us-central1-docker.pkg.dev/ox-lab-anthony-molinaro/test-artifacts/cloudbuild-test
